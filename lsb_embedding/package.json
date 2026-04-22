@@ -1,0 +1,9 @@
+{
+  "name": "lsb_embedding",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "embed": "deno run --allow-read --allow-write ./embed.ts ./fixtures/target.png ./fixtures/secret_message ./fixtures/embedded.png 2817765661 1",
+    "extract": "deno run --allow-read  --allow-write ./extract.ts ./fixtures/embedded.png ./fixtures/output_message 2817765661 1"
+  }
+}
