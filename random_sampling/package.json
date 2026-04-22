@@ -1,0 +1,8 @@
+{
+  "name": "random_sampling",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "sample": "deno run ./sample.ts"
+  }
+}
